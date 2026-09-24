@@ -1,0 +1,28 @@
+Assignment a: 
+Overall: IKEA
+IKEA offers the best combination of visual appeal and usability:
+
+Hierarchy — Lifestyle imagery first, then prominent pricing matching the customer's decision process.
+Consistency — A mature design system keeps every page predictable, lowering cognitive load.
+Colour & Typography — Brand colours carry meaning rather than decoration; the custom typeface stays legible for dense product specifications.
+Navigation — Best-in-class search, filtering, and breadcrumbs make finding one item among thousands effortless.
+Brand Identity — Affordable, functional living is expressed through both aesthetics and information architecture.
+Nike is visually the most striking, but it manages a far smaller catalogue. IKEA sustains strong visual design while solving a much harder usability problem, making it the best overall.
+
+
+
+
+Assignment C — Priority Testing Measure
+
+c) Performance Testing
+The defect was intermittent — the file was selected successfully, but the upload failed and the server status was not updated. Such failures usually stem from timeouts, network variability, large file handling, or server load, all of which performance testing directly targets.
+
+Factors to evaluate:
+
+Load/concurrency — many students uploading at once near deadlines.
+File size variation — small, large, and boundary-size documents.
+Network conditions — Wi-Fi, 4G/5G, weak signal, interrupted connections.
+Response time — upload completion and server acknowledgement.
+Data integrity — every successful upload must update status on the server.
+Error recovery — retry behaviour and clear failure messages.
+Measures required: Confirmation testing to verify the fix, regression testing of the upload module and related features, plus load and stress testing.
